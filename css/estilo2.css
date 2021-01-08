@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+body {
+  font-family: "Staatliches", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-image: url("../assets/img/banner-electronica.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+}
+.jumbotron .container h1 {
+  color: rgba(55, 246, 253, 0.938);
+  text-shadow: 2px 2px black;
+  font-size: 8vw;
+}
+.jumbotron .container p {
+  font: 4vw;
+}
+
+.nuestro {
+  text-align: center;
+}
+.nuestro img {
+  width: 15vw;
+}
+.nuestro .botones {
+  width: 50%;
+}
+.nuestro .botones button {
+  margin-top: 2vw;
+  border: none;
+}
+
+.productos img {
+  width: 100%;
+}
+
+.card {
+  color: white;
+  text-align: center;
+  border-radius: 0;
+}
+
+.card-title {
+  font-size: 1vw;
+}
+
+/*# sourceMappingURL=estilo2.css.map */

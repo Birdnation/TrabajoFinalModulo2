@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Staatliches", cursive;
+}
+
+header img {
+  position: absolute;
+  width: 100%;
+  height: 30vw;
+}
+header h1 {
+  position: relative;
+  text-align: center;
+  padding-top: 5vw;
+  margin: 0;
+  font-family: "Staatliches", cursive;
+  color: rgba(55, 246, 253, 0.938);
+  text-shadow: 2px 2px black;
+  font-size: 8vw;
+}
+header h3 {
+  position: relative;
+  font-family: "Staatliches", cursive;
+  color: rgba(255, 0, 55, 0.582);
+  text-shadow: 1px 1px black;
+  margin-right: auto;
+  margin-left: 10%;
+  font-size: 4vw;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.822);
+  width: 100%;
+  height: 5vw;
+  margin-top: 6vw;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex: 100%;
+  flex-direction: row;
+}
+nav ul li {
+  padding-left: 2vw;
+  padding-top: 1vw;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+}
+nav ul .left {
+  margin-left: auto;
+  margin-right: 10%;
+}
+nav ul .left a {
+  text-decoration: none;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+}
+.contenido .acerca {
+  width: 40%;
+  text-align: center;
+}
+.contenido .acerca img {
+  width: 20vw;
+  height: auto;
+}
+.contenido .acerca div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenido .acerca div img {
+  padding: 1vw;
+  width: 7vw;
+}
+.contenido aside img {
+  width: 100%;
+  height: auto;
+}
+.contenido aside h1 {
+  font-size: 3vw;
+}
+
+footer {
+  width: 100%;
+  height: 10vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.822);
+  color: white;
+  font-size: 2vw;
+  padding-top: 1vw;
+}
+
+/*# sourceMappingURL=estilo.css.map */

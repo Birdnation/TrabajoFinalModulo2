@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    font-family: 'Staatliches', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron{
+    background-image: url('../assets/img/banner-electronica.jpg');
+    background-size: cover;
+    margin-bottom: 0;
+    .container{
+        h1{
+            color: rgba(55, 246, 253, 0.938);
+            text-shadow: 2px 2px black;
+            font-size: 8vw;
+        }
+        p{
+            font: 4vw;
+        }
+    }
+}
+
+.nuestro{
+    text-align: center;
+    img{
+        width: 15vw;
+    }
+    .botones{
+        width: 50%;
+        button{
+            margin-top: 2vw;
+            border: none;
+        }
+    }
+}
+
+.productos{
+    img{
+        width: 100%;
+    }
+}
+
+.card{
+    color: white;
+    text-align: center;
+    border-radius: 0;
+}
+
+.card-title{
+    font-size: 1vw;
+}

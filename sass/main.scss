@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+}
+
+header{
+    img{
+        position: absolute;
+        width: 100%;
+        height: 30vw;
+    }
+    h1{
+        position: relative;
+        text-align: center;
+        padding-top: 5vw;
+        margin: 0;
+        font-family: 'Staatliches', cursive;
+        color: rgba(55, 246, 253, 0.938);
+        text-shadow: 2px 2px black;
+        font-size: 8vw;
+    }
+    h3{
+        position: relative;
+        font-family: 'Staatliches', cursive;
+        color: rgba(255, 0, 55, 0.582);
+        text-shadow: 1px 1px black;
+        margin-right: auto;
+        margin-left: 10%;
+        font-size: 4vw;
+    }
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 100%;
+    height: 5vw;
+    margin-top: 6vw;
+    ul{
+        list-style: none;
+        display: flex;
+        flex: 100%;
+        flex-direction: row;
+        li{
+            padding-left: 2vw;
+            padding-top: 1vw;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 2vw;
+            }
+        }
+        .left{
+            margin-left: auto;
+            margin-right: 10%;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    .acerca{
+        width: 40%;
+        text-align: center;
+        img{
+            width: 20vw;
+            height: auto;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img{
+                padding: 1vw;
+                width: 7vw;
+            }
+        }
+    }
+    aside{
+        img{
+            width: 100%;
+            height: auto;
+        }
+        h1{
+            font-size: 3vw;
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 10vw;
+    text-align: center;
+    background-color:  rgba(0, 0, 0, 0.822);
+    color: white;
+    font-size: 2vw;
+    padding-top: 1vw;
+}
